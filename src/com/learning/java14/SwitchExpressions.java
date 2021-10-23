@@ -7,7 +7,7 @@ public class SwitchExpressions {
     }
 
     public static void main(String[] args) {
-        Month month = Month.OCTOBER;
+        var month = Month.OCTOBER;
         System.out.println(getSeason(month));
         System.out.println(getDiscountForMonth(month));
     }

@@ -3,8 +3,11 @@ package com.learning.java16;
 public class RecordExamples {
     public static void main(String[] args) {
 
-        UserRecord user1 = new UserRecord("User1", 20);
+        UserRecord user1 = new UserRecord("User1", 40);
         user1.printUserDetails();
+
+        UserRecord user2 = new UserRecord("User2");
+        user2.printUserDetails();
     }
 }
 
